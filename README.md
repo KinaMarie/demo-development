@@ -1,2 +1,2 @@
 # demo
-Demo of how pullapprove works.
+Demo of how https://pullapprove.com works.
