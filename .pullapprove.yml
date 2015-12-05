@@ -1,3 +1,4 @@
 approve_by_comment: true
 reviewers:
   name: test
+  required: string
