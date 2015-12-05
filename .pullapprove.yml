@@ -1,6 +1,12 @@
 approve_by_comment: true
 reviewers:
-  required: 2
-  members:
-    - davegaeddert
-    - "@pullapprover"
+  -
+    required: 2
+    members:
+      - davegaeddert
+      - "@pullapprover"
+  -
+    name: just dave
+    required: 1
+    members:
+      - davegaeddert
