@@ -1,6 +1,7 @@
 approve_by_comment: true
 reviewers:
   -
+    name: test
     required: 2
     members:
       - davegaeddert
