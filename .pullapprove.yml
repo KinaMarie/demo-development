@@ -3,4 +3,4 @@ reviewers:
   required: 2
   members:
     - davegaeddert
-    - @pullapprover
+    - "@pullapprover"
