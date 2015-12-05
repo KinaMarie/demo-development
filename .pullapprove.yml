@@ -7,7 +7,7 @@ reviewers:
       - davegaeddert
       - "@pullapprover"
   -
-    name: just dave
+    name: just-dave
     required: 1
     members:
       - davegaeddert
