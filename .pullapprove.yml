@@ -2,7 +2,7 @@ approve_by_comment: true
 reviewers:
   -
     name: test
-    required: 1
+    required: 2
     members:
       - davegaeddert
       - "@pullapprover"
