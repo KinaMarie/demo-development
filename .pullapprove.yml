@@ -1,5 +1,13 @@
 reviewers:
-  required: 2
-  members:
+  -
+    name: test
+    required: 2
+    members:
     - davegaeddert
     - davegaedderttest
+  -
+    name: another
+    required: 1
+    members:
+      - davegaeddert
+  
