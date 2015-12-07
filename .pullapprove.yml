@@ -1,0 +1,5 @@
+reviewers:
+  required: 2
+  members:
+    - davegaeddert
+    - davegaedderttest
