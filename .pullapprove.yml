@@ -1,4 +1,6 @@
 approve_by_comment: true
+approve_regex: "^Yay"
+reject_regex: no
 reviewers:
   required: 1
   members:
