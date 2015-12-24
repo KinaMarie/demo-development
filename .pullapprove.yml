@@ -1,5 +1,4 @@
 approve_by_comment: true
-approve_regex: ^YES
 reviewers:
   required: 1
   members:
