@@ -1,6 +1,6 @@
 approve_by_comment: true
 approve_regex: ^YES
-reject_regex: ^NO!
+reject_regex: '^NO!'
 reviewers:
   required: 1
   members:
