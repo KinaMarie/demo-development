@@ -1,7 +1,7 @@
 approve_by_comment: true
 approve_regex: '^:\+1:'
 reject_regex: '^:\-1:'
-author_approval: test
+author_approval: required
 reviewers:
   required: 1
   members:
