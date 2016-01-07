@@ -4,7 +4,7 @@ reject_regex: '^:\-1:'
 author_approval: required
 reset_on_push: true
 reviewers:
-  required: 1
+  required: 2
   members:
     - davegaeddert
     - pullapprover
