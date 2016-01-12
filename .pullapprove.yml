@@ -2,7 +2,8 @@ approve_by_comment: true
 approve_regex: ^Approved
 reject_regex: ^Rejected
 reset_on_push: true
-author_approval: ignored
+reset_on_reopened: true
+author_approval: default
 reviewers:
   members:
   - davegaeddert
