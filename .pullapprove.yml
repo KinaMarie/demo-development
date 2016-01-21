@@ -1,4 +1,4 @@
-extends: based
+extends: base
 approve_regex: ^Approved
 reject_regex: ^Rejected
 reset_on_push: false
