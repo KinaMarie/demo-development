@@ -5,5 +5,7 @@ reset_on_push: false
 reviewers:
   members:
   - davegaeddert
+  - pullapprover
+  - davegaedderttest
   name: default
   required: 1
