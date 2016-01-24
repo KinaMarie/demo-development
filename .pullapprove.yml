@@ -11,6 +11,6 @@ reviewers:
     members:
       - davegaeddert
       - pullapprover
-    required: 3
+    required: 2
     name: test
   
