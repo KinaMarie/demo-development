@@ -1,4 +1,4 @@
-approve_by_comment: false
+approve_by_comment: yes
 approve_regex: ^Yes
 reject_regex: ^Rejected
 reset_on_push: false
