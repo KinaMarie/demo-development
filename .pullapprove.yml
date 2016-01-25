@@ -1,4 +1,4 @@
 extends: base
-approve_by_comment: whoops
+approve_by_comment: yes
 reject_regex: ^Rejected
   
