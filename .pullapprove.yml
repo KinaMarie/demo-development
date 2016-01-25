@@ -1,4 +1,6 @@
-extends: base
 approve_by_comment: yes
 reject_regex: ^Rejected
-  
+reviewers:
+  required: -1
+  members:
+    - davegaeddert
