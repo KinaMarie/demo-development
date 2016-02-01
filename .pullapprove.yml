@@ -13,4 +13,5 @@ reviewers:
     members:
       - davegaeddert
     conditions:
-      labels: bug
+      labels: 
+        - bug
