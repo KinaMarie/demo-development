@@ -1,7 +1,17 @@
 approve_by_comment: yes
 reject_regex: ^Rejected
 reviewers:
-  required: -1
-  members:
-    - davegaeddert
-    - pullapprover
+  -
+    name: normal
+    required: -1
+    members:
+      - davegaeddert
+      - pullapprover
+  -
+    name: buggers
+    required: 1
+    members:
+      - davegaeddert
+    conditions:
+      labels:
+        - bug
