@@ -22,4 +22,4 @@ reviewers:
       - pullapprover
     conditions:
       files:
-        - 'LICENSE'
+        - '*.py'
