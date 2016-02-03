@@ -17,5 +17,5 @@ reviewers:
         - bug
         - question
       files:
-        - **/*.md
-        - LICENSE
+        - '**/*.md'
+        - 'LICENSE'
