@@ -6,7 +6,6 @@ reviewers:
     required: -1
     members:
       - davegaedderttest
-      - pullapprover
   -
     name: buggers
     required: 1
@@ -16,6 +15,12 @@ reviewers:
       labels: 
         - bug
         - question
+  -
+    name: files-reviewers
+    required: 1
+    members:
+      - pullapprover
+    conditions:
       files:
         - '**/*.md'
         - 'LICENSE'
