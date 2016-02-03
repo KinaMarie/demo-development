@@ -22,4 +22,4 @@ reviewers:
       - pullapprover
     conditions:
       files:
-        - 'LICENSED'
+        - 'LICENSE'
