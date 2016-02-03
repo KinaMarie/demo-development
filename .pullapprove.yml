@@ -22,5 +22,4 @@ reviewers:
       - pullapprover
     conditions:
       files:
-        - '**/*.md'
-        - 'LICENSE'
+        - 'LICENSED'
