@@ -16,3 +16,6 @@ reviewers:
       labels: 
         - bug
         - question
+      files:
+        - **/*.md
+        - LICENSE
