@@ -23,5 +23,3 @@ reviewers:
     conditions:
       branches:
         - master
-      labels:
-        - bug
