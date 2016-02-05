@@ -22,4 +22,4 @@ reviewers:
       - pullapprover
     conditions:
       branches:
-        - master
+        - masterd
