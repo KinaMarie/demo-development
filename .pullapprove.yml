@@ -22,4 +22,6 @@ reviewers:
       - pullapprover
     conditions:
       branches:
-        - masterd
+        - master
+      labels:
+        - bug
