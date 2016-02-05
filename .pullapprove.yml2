@@ -16,13 +16,10 @@ reviewers:
         - bug
         - question
   -
-    name: files-reviewers
+    name: branch-reviewers
     required: 1
     members:
       - pullapprover
     conditions:
-      labels:
-        - bug
-      files:
-        - '*.py'
-        - True
+      branches:
+        - master
