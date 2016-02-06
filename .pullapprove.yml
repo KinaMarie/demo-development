@@ -2,25 +2,7 @@ approve_by_comment: yes
 reject_regex: ^Rejected
 reviewers:
   -
-    name: normal
-    required: -1
-    members:
-      - davegaedderttest
-  -
     name: buggers
     required: 1
     members:
       - davegaeddert
-    conditions:
-      labels: 
-        - bug
-        - question
-  -
-    name: branch-reviewers
-    required: 1
-    members:
-      - pullapprover
-    conditions:
-      branches:
-        - staging
-        - master
