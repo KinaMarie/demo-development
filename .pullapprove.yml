@@ -1,5 +1,6 @@
 approve_by_comment: yes
 reject_regex: ^Rejected
+reset_on_reopened: true
 reviewers:
   -
     name: buggers
