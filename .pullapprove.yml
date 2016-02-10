@@ -31,4 +31,4 @@ reviewers:
       - davegaeddert
     conditions:
       branches:
-        - master
+        - masterd
