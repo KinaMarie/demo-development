@@ -1,35 +1,34 @@
-extends: templ
-# approve_by_comment: yes
-# reject_regex: ^Rejected
-# reset_on_reopened: true
-# reset_on_push: true
-# reviewers:
-#   -
-#     name: buggers
-#     required: 1
-#     members:
-#       - davegaeddert
-#   -
-#     name: labels
-#     required: 1
-#     members:
-#       - davegaedderttest
-#     conditions:
-#       labels:
-#         - bug
-#   -
-#     name: files
-#     required: 1
-#     members:
-#       - pullapprover
-#     conditions:
-#       files:
-#         - "*.md"
-#   -
-#     name: branches
-#     required: 1
-#     members:
-#       - davegaeddert
-#     conditions:
-#       branches:
-#         - masterd
+approve_by_comment: yes
+reject_regex: ^Rejected
+reset_on_reopened: true
+reset_on_push: true
+reviewers:
+  -
+    name: buggers
+    required: 1
+    members:
+      - davegaeddert
+  -
+    name: labels
+    required: 1
+    members:
+      - davegaedderttest
+    conditions:
+      labels:
+        - bug
+  -
+    name: files
+    required: 1
+    members:
+      - pullapprover
+    conditions:
+      files:
+        - "*.md"
+  -
+    name: branches
+    required: 1
+    members:
+      - davegaeddert
+    conditions:
+      branches:
+        - masterd
