@@ -5,31 +5,8 @@ reset_on_push: true
 reject_value: -1
 reviewers:
   -
-    name: buggers
-    required: 1
+    required: 2
     members:
       - davegaeddert
-  -
-    name: labels
-    required: 1
-    members:
       - davegaedderttest
-    conditions:
-      labels:
-        - bug
-  -
-    name: files
-    required: 1
-    members:
       - pullapprover
-    conditions:
-      files:
-        - "*.md"
-  -
-    name: branches
-    required: 1
-    members:
-      - davegaeddert
-    conditions:
-      branches:
-        - masterd
