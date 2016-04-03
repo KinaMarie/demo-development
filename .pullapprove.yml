@@ -6,8 +6,16 @@ reject_value: 0
 author_approval: required
 reviewers:
   -
+    name: normal
     required: 2
     members:
-      - davegaeddert
       - davegaedderttest
       - pullapprover
+  -
+    name: legal
+    requird: 1
+    members:
+      - davegaeddert
+    conditions:
+      files:
+        - LICENSE
