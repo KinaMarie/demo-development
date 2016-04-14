@@ -17,5 +17,5 @@ reviewers:
     members:
       - davegaeddert
     conditions:
-      - files:
-          - LICENSE
+      files:
+        - LICENSE
