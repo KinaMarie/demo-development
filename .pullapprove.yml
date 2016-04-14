@@ -10,7 +10,7 @@ reviewers:
     required: 2
     members:
       - davegaedderttest
-      - pullapprover
+      - Pullapprover
   -
     name: legal
     required: 1
