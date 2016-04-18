@@ -1,5 +1,5 @@
 approve_by_comment: yes
-approve_regex: ^(Approved|:\+1:|\\U0001f44d)
+approve_regex: '^(Approved|:\+1:|\\U0001f44d)'
 reject_regex: ^Rejected
 reset_on_reopened: true
 reset_on_push: true
