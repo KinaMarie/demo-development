@@ -6,17 +6,7 @@ reset_on_push: true
 reject_value: 0
 author_approval: required
 reviewers:
-  -
-    name: normal
-    required: 2
-    members:
-      - davegaedderttest
-      - Pullapprover
-  -
     name: legal
     required: 1
     members:
       - davegaeddert
-    conditions:
-      files:
-        - LICENSE
