@@ -14,5 +14,5 @@ reviewers:
     -
         name: by_team
         required: 1
-        members:
+        teams:
             - testers
