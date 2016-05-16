@@ -7,7 +7,7 @@ reset_on_push: true
 reject_value: 0
 author_approval: required
 always_pending:
-    title_regex: 'WIP'
+    title_regex: '^(WIP|wip)'
     labels:
         - wip
 reviewers:
