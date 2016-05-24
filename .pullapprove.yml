@@ -10,6 +10,7 @@ always_pending:
     title_regex: '^(WIP|wip)'
     labels:
         - wip
+    explanation: "Do not review WIP"
 reviewers:
     -
         name: legal
