@@ -10,6 +10,11 @@ always_pending:
     title_regex: '^(WIP|wip)'
     labels:
         - wip
+always_rejected:
+    title_regex: 'DISALLOW'
+    labels:
+        - bug
+    explanation: 'Rejected dude...'
 reviewers:
     -
         name: legal
