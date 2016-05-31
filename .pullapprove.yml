@@ -26,3 +26,11 @@ reviewers:
         required: 1
         teams:
             - testers
+    -
+        name: feature-to-deploy
+        required: 1
+        members:
+            - davegaeddert
+        conditions:
+            branches:
+                - deploy...feature
