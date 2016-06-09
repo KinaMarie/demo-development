@@ -3,7 +3,7 @@ approve_by_comment: yes
 approve_regex: '^(Approved|:\+1:)'
 reject_regex: ^Rejected
 reset_on_reopened: true
-reset_on_push: true
+reset_on_push: bla
 reject_value: 0
 author_approval: required
 always_pending:
