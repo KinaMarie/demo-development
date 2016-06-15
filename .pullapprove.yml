@@ -22,6 +22,14 @@ reviewers:
         members:
           - davegaeddert
     -
+        name: labels
+        required: 1
+        members:
+            - davegaeddert
+        conditions:
+            labels:
+                - bug
+    -
         name: by_team
         required: 1
         teams:
