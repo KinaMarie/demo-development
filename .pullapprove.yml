@@ -28,7 +28,7 @@ reviewers:
             - davegaeddert
         conditions:
             labels:
-                - bug
+                - duplicate
     -
         name: by_team
         required: 1
