@@ -23,6 +23,9 @@ reviewers:
         required: 1
         members:
           - davegaeddert
+        approve_by_comment:
+            enabled: true
+            approve_regex: '^Legal+'
     -
         name: labels
         required: 1
